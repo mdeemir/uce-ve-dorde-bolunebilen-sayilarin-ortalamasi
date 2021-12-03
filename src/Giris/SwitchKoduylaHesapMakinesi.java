@@ -16,6 +16,8 @@ public class SwitchKoduylaHesapMakinesi {
         System.out.println("Toplama için 1:\nÇıkarma için 2: \nÇarpma için 3: \nBölme için 4:");
         System.out.print("Yapılmasını istediğiniz işlemi seçiniz: ");
         select = inp.nextInt();
+
+
         switch (select){
             case 1:
                 System.out.println("Toplama işlemini seçtiniz\nSonuç: " + (n1+n2));
@@ -35,6 +37,7 @@ public class SwitchKoduylaHesapMakinesi {
 
             default:
                 System.out.println("GEÇERSİZ BİR SEÇİM YAPTINIZ!!! Tekrar Deneyiniz");
+
         }
 
 
