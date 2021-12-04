@@ -6,7 +6,7 @@ public class KullaniciAdiSifreGirisi {
 
         System.out.print("LÜTFEN KULLANICI ADI ve ŞİFRENİZİ GİRİNİZ\nKullanıcı Adı: ");
         String userName, password, newpassword;
-        
+
         userName = inp.nextLine();
 
         System.out.print("Şifreniz: ");
