@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class calismadosyasi {
     public static void main(String[] args) {
-       int k,count=0, n, total, average;
+        int k,count=0, n, total, average;
 
-       Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("lütfen sayı giriniz: ");
         k= input.nextInt();
@@ -28,3 +28,4 @@ public class calismadosyasi {
 
     }
 }
+
